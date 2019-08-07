@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link  href="{% static 'style.css' %}" rel="stylesheet">
+</head>
+<body class="body_background">
+<div class="title">
+    <h1>Bot detection system </h1>
+    <form method = "POST" action = "{% url 'get_res' %}">
+        {% csrf_token %}
+        {{ form.screen_name }}
+        <button type = "submit" class="Submit_" >Submit</button>
+        <br>
+        {{ form.field }}
+        </br>
+    </form>
+    <h2>{{ text }}</h2>
+</div>
+</body>
+</html>

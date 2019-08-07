@@ -1,0 +1,26 @@
+.title {
+    font-size: 24px;
+    text-align:  center;
+    margin-top: 5%;
+}
+.screen_name{
+    font-size: 24px;
+     height:40px;
+     width:400px;
+}
+.Submit_{
+    font-size: 24px;
+     height:43px;
+     width:140px;
+}
+.body_background{
+    background:url('img/1.jpg');
+    no-repeat: center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.field{
+    font-size: 20px;
+}
